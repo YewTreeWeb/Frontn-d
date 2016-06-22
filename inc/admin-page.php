@@ -167,6 +167,6 @@ function yewtree_post_formats(){
    require_once( get_template_directory() . '/inc/templates/theme-essentials.php');
  }
 
-function yewtree_theme_create_page(){
+function yewtree_theme_support_page(){
   require_once( get_template_directory() . '/inc/templates/admin-options.php');
 }

@@ -24,7 +24,7 @@ function yewtree_add_admin_page(){
 
   add_submenu_page( 'yewtree_web', 'Theme Essentials', 'Essentials', 'manage_options', 'yewtree_web', 'yewtree_theme_create_page' );
 
-  add_submenu_page( 'yewtree_web', 'Admin Options', 'Options', 'manage_options', 'yewtree_web_theme', 'yewtree_theme_create_page' );
+  add_submenu_page( 'yewtree_web', 'Admin Options', 'Options', 'manage_options', 'yewtree_web_theme', 'yewtree_theme_support_page' );
 
   add_submenu_page( 'yewtree_web', 'YewTree CSS Options', 'Custom CSS', 'manage_options', 'yewtree_web_css', 'yewtree_theme_settings_page');
 
